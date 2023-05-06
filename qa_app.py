@@ -253,8 +253,9 @@ def main():
 
         chat_openai = ChatOpenAI(
             streaming=True, callback_manager=callback_manager, verbose=True, temperature=0)
-        qa = RetrievalQA.from_chain_type(llm=chat_openai, retriever=retriever, chain_type="stuff", verbose=True)
-
+        # qa = RetrievalQA.from_chain_type(llm=chat_openai, retriever=retriever, chain_type="stuff", verbose=True)
+        qa = RetrievalQA.from_chain_type(llm=chat_openai, retriever=self.vectorstore.as_retriever(), **kwargs)
+        
         # Check if there are no generated question-answer pairs in the session state
         if 'eval_set' not in st.session_state:
             # Use the generate_eval function to generate question-answer pairs
