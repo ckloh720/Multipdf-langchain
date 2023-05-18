@@ -1,4 +1,5 @@
 
+**This repository is replicated from Mehmet for learning purposes, all credits to the original creator
 
 **Try the app here:** [PDF Analyzer on Streamlit Cloud](https://ckloh720-multipdf-langchain-qa-app-juhq65.streamlit.app/)
 
