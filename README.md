@@ -1,7 +1,7 @@
 
 **This repository is replicated from Mehmet for learning purposes, all credits to the original creator.
 
-** The LLM will summarize or answer questions on a set of PDF files that you upload; the backend engine is OpenAI or HuggingBear's LLM and langchain; you would need to provide your own API key to the LLM subscription.
+** The LLM will summarize or answer questions on a set of PDF files that you upload; the backend LLM is OpenAI, using OpenAI or HuggingBear's embeddings and langchain; you would need to provide your own API key to the OpenAI subscription.
 
 **Try the app here in CK Loh's Streamlit website:** [PDF Analyzer on Streamlit Cloud](https://ck-app-multipdf-langchain-openai-6fqjfysu2qvmtll65evopd.streamlit.app/)
 
