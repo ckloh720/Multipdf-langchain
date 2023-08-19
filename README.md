@@ -3,7 +3,7 @@
 
 ** The LLM will summarize or answer questions on a set of PDF files that you upload; the backend engine is OpenAI or HuggingBear's LLM and langchain; you would need to provide your own API key to the LLM subscription.
 
-**Try the app here in CK Loh's Streamlit website:** [PDF Analyzer on Streamlit Cloud]([https://ckloh720-multipdf-langchain-qa-app-juhq65.streamlit.app](https://ck-app-multipdf-langchain-openai-6fqjfysu2qvmtll65evopd.streamlit.app/)/)
+**Try the app here in CK Loh's Streamlit website:** [PDF Analyzer on Streamlit Cloud]([https://ckloh720-multipdf-langchain-qa-app-juhq65.streamlit.app](https://ck-app-multipdf-langchain-openai-6fqjfysu2qvmtll65evopd.streamlit.app/)
 
 # PDF Analyzer App
 
